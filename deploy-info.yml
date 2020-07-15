@@ -1,0 +1,16 @@
+project_name: "sedstarhse-dev-star-hse-ara"
+base_project_name: "mysql-operator"
+distribute_to_bintray: "yes"
+operator: "true"
+operator_service_account: "mysql-operator"
+team:
+  name: "mysql-operator"
+  token: "77fc334c-7ff4-8f6d-f317-680f676e4675"
+email: "nirmal-nk.kumar@broadcom.com"
+version: "1.0"
+entrypoint: "helm"
+kubernetes:
+  env:
+    name: "gkesc"
+flowdock: 
+  flow_token: "50f1839f1a5552dfe3d2785978868ace"

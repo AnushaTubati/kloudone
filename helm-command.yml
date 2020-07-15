@@ -1,0 +1,7 @@
+repo: https://artifactory-lvn.broadcom.net/artifactory/helm-release-candidate-local
+chart: mysql-operator/mysql-operator-1.1.1.tgz
+values: ./values.yaml
+command: install
+commandOptions: --wait
+# command: test
+# releaseName: mysql-operator-1-1589928509

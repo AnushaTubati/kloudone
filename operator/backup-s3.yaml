@@ -1,0 +1,10 @@
+# backup-s3.yaml
+backupS3Yaml: |-
+  apiVersion: v1
+  kind: Secret
+  metadata:
+    name: mysql-cluster-backup-s3
+  type: Opaque
+  data:
+    AWS_ACCESS_KEY_ID: R09PRzFFSEdYUDZTQVlUSVRBUkhCRldFVk9KR0FCNENMTEhMTlJJWE1GVU9UQjdXRUUzTTdRMjY0M0RFUQ==
+    AWS_SECRET_ACCESS_KEY: OUNmNFA3cENuRG42WHhXMVo3c0hXZDlNazBDUnJ3cDJ1Rmg0cnBmbQ==
