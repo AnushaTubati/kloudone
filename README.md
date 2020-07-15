@@ -236,3 +236,5 @@ You should see the following:
 
 * The operator pod is terminated and restarted, using the latest operator image
 * The pxc, proxysql, backup and pmm pods are terminated and restarted using their latest images. The pxc and proxysql pods are terminated in sequence and thus there should be no loss of service as at least one pxc and proxysql pod should be running during the update.
+# kloudone
+# kloudone
